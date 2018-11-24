@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
              }
          });
     }
-
     public String SendFile(String fileName, String path, String ipAddress, int port) {
         try {
             Socket name = new Socket(ipAddress, port);
