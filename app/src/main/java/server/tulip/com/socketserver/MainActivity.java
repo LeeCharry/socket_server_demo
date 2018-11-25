@@ -75,7 +75,6 @@ public class MainActivity extends AppCompatActivity {
                             String s = SendFile(fileName, path, tvIp.getText().toString(), port);
                             Log.d(TAG, s);
                         }
-
                     }
                 });
                 sendThread.start();
